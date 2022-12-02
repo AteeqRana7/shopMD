@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Jost:wght@400;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
+  </head>
+  <body>
+    <nav class="nav collapsible">
+      <a href="index.html"
+        ><img src="images/logo.svg" alt="ShopMD Logo" class="nav__brand"
+      /></a>
+      <img src="images/menu.svg" alt="Navbar Toggler" class="nav__toggler" />
+      <ul class="list nav__list collapsible__content">
+        <li class="nav__item"><a href="index.html" class="active">Home</a></li>
+        <li class="nav__item"><a href="aboutus.html">About Us</a></li>
+        <li class="nav__item"><a href="resources.html">Resources</a></li>
+        <li class="nav__item"><a href="#">Contact</a></li>
+      </ul>
+      <div class="nav-btn">
+        <button class="button button--primary">
+          <a href="#">Login</a>
+        </button>
+      </div>
+    </nav>
+
+    <section class="block hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header hero__content">
+          <h1 class="block__heading">
+            Healthcare does not have to be expensive
+          </h1>
+          <p class="hero__tagline">
+            High-value specialty providers reduce out-of-pocket costs
+            <strong>50%-90%</strong> and <strong>20%</strong> of employer
+            healthcare spend
+          </p>
+        </header>
+        <img
+          src="images/hero-illustration.svg"
+          alt=""
+          class="hero__image"
+          loading="lazy"
+        />
+      </div>
+      <div class="search--bar">
+        <input
+          type="email"
+          name="user-work-email"
+          placeholder="Your work email"
+          id=""
+          class="input--bar"
+        />
+        <select name="" id="" class="select--option">
+          <option value="0" class="select--element">Specialty</option>
+          <option value="1" class="select--element">Cardiology</option>
+          <option value="2" class="select--element">Dentist</option>
+        </select>
+        <button class="button button--primary search-btn">
+          <img src="icons/search.png" alt="" class="search-icon" />
+        </button>
+      </div>
+      <a href="#" class="search-email-question"
+        >Why do we need your work email?</a
+      >
+    </section>
+
+    <section class="block block--secondary">
+      <div class="container secondary">
+        <div class="container-element">
+          <h2 class="elemenet--heading">Employer Savings</h2>
+          <div class="element--square--container">
+            <div class="element--square">0</div>
+            <div class="element--square">0</div>
+            <div class="element--square">%</div>
+          </div>
+          <h2 class="elemenet--heading">of healthcare spend</h2>
+        </div>
+        <div class="container-element">
+          <h2 class="elemenet--heading">Employer Savings</h2>
+          <div class="element--square--container second">
+            <div class="element--square">0</div>
+            <div class="element--square">0</div>
+            <div class="element--square">%</div>
+          </div>
+          <h2 class="elemenet--heading">of OOP costs & deductibles</h2>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="container grid grid--1x2">
+        <iframe
+          src="https://www.youtube.com/embed/nh99ZO2Ia9Q"
+          class="block--video"
+        ></iframe>
+        <header class="block__header hero__content">
+          <h2 class="block__heading text-to-left">
+            Healthcare is shoppable, everyone should do it
+          </h2>
+          <p class="hero__tagline text-to-left">
+            Whether you have insurance or not, specialty services vary a alot in
+            price from one provider to the next.
+          </p>
+          <p class="hero__tagline secondary__text">
+            <strong>The price difference can be 10-20 times</strong> between one
+            provider and another for the same quality of care.
+          </p>
+          <p class="hero__tagline secondary__text">
+            <strong>ShopMD uncovers the lowest cost</strong> providers anywhere
+            so patients don't have to hunt around for low priced providers.
+          </p>
+        </header>
+      </div>
+    </section>
+
+    <section class="block block--secondary">
+      <div class="container">
+        <header class="block__header hero__content">
+          <h1 class="block__heading">How shopMD works?</h1>
+          <p class="hero__tagline highlight">
+            Discover the highest-value medical specialty practices across the US
+          </p>
+          <p class="hero__tagline padded-text">
+            We identify practices that operate independent of high markups and
+            administrative costs. These are generally independtly
+            physician-owned and - operated with
+            <strong>50%-90% lower prices</strong> and cash-friendly practices.
+          </p>
+        </header>
+        <div class="block--main--body block--flex--start">
+          <div class="block--main--body--element">
+            <img
+              src="images/tabler_user-check.svg"
+              alt=""
+              class="icon"
+              loading="lazy"
+            />
+            <h2 class="body--heading">Employers</h2>
+            <p class="hero__tagline add-margin-to-text">
+              Offered through employers as an added health & financial benefit
+              to their employees
+            </p>
+          </div>
+          <div class="block--main--body--element">
+            <img
+              src="images/tabler_presentation.svg"
+              alt=""
+              class="icon"
+              loading="lazy"
+            />
+            <h2 class="body--heading">Carriers & Brokers</h2>
+            <p class="hero__tagline add-margin-to-text">
+              Bundled with existing plans as a way for members to find the
+              lowest prices within your offered networks
+            </p>
+          </div>
+          <div class="block--main--body--element">
+            <img
+              src="images/people_community_regular_icon_202809 1.svg"
+              alt=""
+              class="icon"
+              loading="lazy"
+            />
+            <h2 class="body--heading">Community Share Plans & HRAs</h2>
+            <p class="hero__tagline">
+              Money-saving service for members of cash-based plans such as
+              healthshare plans and Health Reimbursement Accounts (HRAs)
+            </p>
+          </div>
+        </div>
+        <div class="btn-container">
+          <button class="button button--primary btn-small">
+            <a href="#">Not yet signed up? Wait no more!</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="block block--callout">
+      <div class="container">
+        <div class="callout--section">
+          <header class="block__header hero__content">
+            <h2 class="block__heading extra-margin">
+              Not getting shopMD through your employer?
+            </h2>
+            <p class="hero__tagline remove-bottom-margin">
+              If you want your employer to use shopMD, let us know how to
+              contact them.
+            </p>
+          </header>
+          <button class="button button--primary btn-small add-margin-below">
+            <a href="#">Yes, I want my employer to join shopMD</a>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="block--flex--soon">
+        <header class="block__header hero__content coming-soon">
+          <h1 class="block__heading extra-margin left-margin">COMING SOON!</h1>
+          <p class="hero__tagline highlight text-to-left remove-bottom-margin">
+            shopMD individual & family memberships
+          </p>
+          <p
+            class="hero__tagline secondary__text text-to-left remove-bottom-margin"
+          >
+            shopMD will be open to individual & family memberships soon. Join
+            our waitlist to stay informed of when you can join.
+          </p>
+          <p class="hero__tagline secondary__text text-to-left">
+            Meanwhile, you can use our
+            <a href="resources.html" class="primary-link">Resources</a> page to
+            find lower-priced alternatives to other types of care - such as
+            discounted labs, prescription drugs, primary and urgent care.
+          </p>
+          <p class="left-extra-margin">
+            <a href="#" class="primary-link no-underline"
+              >Yes, I want to know when I can join shopMD</a
+            >
+          </p>
+          <button
+            class="button button--primary button--stretched set-center extra-stretch"
+          >
+            <a href="#">Let's go</a>
+          </button>
+        </header>
+
+        <img
+          src="images/family-illustration.svg"
+          alt=""
+          class="hero__image"
+          loading="lazy"
+        />
+      </div>
+    </section>
+
+    <section class="block">
+      <div class="container flex">
+        <div class="block--secondary block--question">
+          <picture>
+            <source
+              srcset="
+                icons/people_money_icon_1@2x.png  728w,
+                icons/people_money_icon_1@3x.png 1024w
+              "
+            />
+            <img
+              src="icons/people_money_icon_1.png"
+              alt="people money icon"
+              class="icon--max--size"
+            />
+          </picture>
+
+          <h2 class="body--heading">Who are High-Value Specialty Providers</h2>
+          <p class="hero__tagline">
+            Board-certified physicians with advanced medical training and
+            licensing, like all specialty providers in the US - but with much
+            lower prices.
+          </p>
+        </div>
+        <div class="block--secondary block--question">
+          <picture>
+            <source
+              srcset="
+                icons/money_hand_icon_1@2x.png  728w,
+                icons/money_hand_icon_1@3x.png 1024w
+              "
+            />
+            <img
+              src="icons/money_hand_icon_1.png"
+              alt="Money Hand icon"
+              class="icon--max--size"
+            />
+          </picture>
+          <h2 class="body--heading">
+            What is the price difference between Low- and High-Value providers?
+          </h2>
+          <p class="hero__tagline">
+            The price difference is massive in healthcare. Using high-value
+            providers is like getting a 50%-90% discount right away.
+          </p>
+        </div>
+        <div class="block--secondary block--question">
+          <picture>
+            <source
+              srcset="
+                icons/money_calculator_icon_1@2x.png  728w,
+                icons/money_calculator_icon_1@3x.png 1024w
+              "
+            />
+            <img
+              src="icons/money_calculator_icon_1.png"
+              alt="Money Hand icon"
+              class="icon--max--size"
+            />
+          </picture>
+          <h2 class="body--heading">
+            Is it Easy to Locate Low-Value Providers>
+          </h2>
+          <p class="hero__tagline">
+            It is not easy, but shopMD makes it easy. A providers's name,
+            location, or size of office by itself does not tell you if they are
+            high-value, low-cost or not.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="block block--callout">
+      <div class="container">
+        <header class="block__header hero__content">
+          <h1 class="block__heading">
+            Are you a high-value specialty provider?
+          </h1>
+          <p class="hero__tagline highlight callout--padding--extra">
+            Awesome! We might already have you covered by shopMD. But why not
+            check to be sure, and see what else we can do for you? And before
+            you ask - its FREE
+          </p>
+          <p class="hero__tagline callout--padding">
+            We're the largest community of cash-friendly, high value specialty
+            service providers - and the biggest destinations for patients
+            seeking high-value care.
+          </p>
+          <div class="question--block">
+            <div class="question--block--element">
+              <img src="icons/circle.png" alt="" class="question--circle" /> Are
+              you providing high-value and lower costs?
+            </div>
+            <div class="question--block--element">
+              <img src="icons/circle.png" alt="" class="question--circle" /> Are
+              you cash-friendly and prefer to give patients choice to self-pay?
+            </div>
+            <div class="question--block--element">
+              <img src="icons/circle.png" alt="" class="question--circle" /> Do
+              you want to grow your practice without more risk-based hassles?
+            </div>
+            <button class="button button--primary extra-margin">
+              <a href="#">Let's make sure I'm on shopMD</a>
+            </button>
+          </div>
+        </header>
+      </div>
+    </section>
+
+    <footer class="block footer">
+      <div class="footer--flex">
+        <img src="images/logo.svg" alt="ShopMD Logo" class="footer__brand" />
+        <div class="footer--section">
+          <ul class="list">
+            <li class="list--element"><a href="index.html">Home</a></li>
+            <li class="list--element"><a href="aboutus.html">About Us</a></li>
+            <li class="list--element">
+              <a href="resources.html">Resources</a>
+            </li>
+            <li class="list--element"><a href="#">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer--section">
+          <ul class="list">
+            <li class="list--element"><a href="#">Providers</a></li>
+            <li class="list--element"><a href="#">Employers</a></li>
+            <li class="list--element"><a href="#">Brokers & Carriers</a></li>
+            <li class="list--element">
+              <a href="#">Community Share Plans & HRAs</a>
+            </li>
+          </ul>
+        </div>
+        <div class="footer--section">
+          <p class="footer--disclaimer">
+            If you are having a medical emergency, call 911 or go to your
+            closest emergency room immediately.
+            <strong>
+              shopMD is not intended for use if you need urgent or emergency
+              care.
+            </strong>
+          </p>
+        </div>
+      </div>
+      <div class="main-disclaimer">
+        <p>
+          The content provided here and elsewhere on the shopMD site is for
+          general informational purposes only. It is not intended as, and shopMD
+          does not provide, medical advice, diagnosis or treatment. Always
+          contact your healthcare provider directly with any questions you may
+          have regarding your health or specific medical advice.
+        </p>
+      </div>
+      <div class="credits">
+        <a href="#" class="credit-element">Terms of Use</a>
+        <a href="#" class="credit-element">Privacy Policy</a>
+        <p>(c)2022, shopMD. All Rights Reserved</p>
+      </div>
+    </footer>
+    <script src="js/main.js"></script>
+  </body>
+</html>
